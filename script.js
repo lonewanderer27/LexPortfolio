@@ -30,7 +30,7 @@ togglePassViewBtn.addEventListener('click', () => {
 })
 
 // Get the login form if we're on index.html
-if (window.location.pathname === '/index.html') {
+if (window.location.pathname === '/index.html' || window.location.pathname === '/') {
   const loginform = document.getElementById("loginform")
   loginform.addEventListener("submit", (e) => {
     // Prevent the form from submitting
@@ -55,7 +55,7 @@ if (window.location.pathname === '/index.html') {
 }
 
 // Get the signup form if we're on signup.html
-if (window.location.pathname === '/signup.html') {
+if (window.location.pathname === '/signup.html' || window.location.pathname === '/signup') {
   const signupform = document.getElementById("signupform")
   signupform.addEventListener("submit", (e) => {
     // Prevent the form from submitting
