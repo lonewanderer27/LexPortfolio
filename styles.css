@@ -1,4 +1,3 @@
-```css
 /* Reset styles to remove default spacing and ensure consistent box-sizing */
 * {
     margin: 0;
@@ -68,4 +67,3 @@
     transform: translateY(-2px); /* Move the icon up slightly on hover */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover for depth */
 }
-```
