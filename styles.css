@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #00FFFF, #FF00FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .form-container {
+        width: 35%;
+    }
+}
+
+#forgotPasswordLink {
+    font-size: 6px;
+}
+
+#loginBtn {
+    background-color: #144592;
+}
+
+#loginBtn:hover {
+    background-color: #0c2c4d;
+}
+
+#social-media-logins {
+    display: flex;
+    justify-content:space-around;
+}
+
+#title {
+    color: #144592;
+}
+
+.social > img {
+    max-height: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social > img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
